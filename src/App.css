@@ -1,0 +1,72 @@
+.container{
+  /* border: 3px solid red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* background-color: blue; */
+  
+}
+.board{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 30px;
+  width: 40%;
+  margin-top: 70px;
+
+}
+
+.mainbox{
+  display: flex;
+  flex-direction: row;
+}
+
+.back{
+  width: 60%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size:70px;
+  height: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: blue;
+  color: white;
+  border-radius: 30px;
+  margin-top: 110px;
+  margin-right: 40px;
+}
+
+.square{
+  display: flex;
+  justify-content: center;
+  background-color: blue;
+  color: antiquewhite;
+  font-size: 20px;
+  width: 70px;
+  height: 70px;
+  border: 2px solid blue;
+  margin: 2px;
+  border-radius: 9px;
+}
+
+.square:hover{
+  cursor: pointer;
+  background-color: rgb(14, 14, 198);
+}
+
+.btn{
+  /* border: 3px solid red; */
+  margin-left: 200px; 
+   margin-top: 40px;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 9px;
+  border-radius: 15px;
+  background-color: rgb(204, 196, 196);
+}
+
+.btn:hover{
+  background-color: blue;
+  color: white;
+}
